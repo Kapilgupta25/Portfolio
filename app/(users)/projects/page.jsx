@@ -24,6 +24,14 @@ export default function Projects() {
 
   const projects = [
     {
+      title: "DSA Instructor Bot",
+      description: "An AI-powered chatbot that helps users understand Data Structures & Algorithms (DSA) concepts in the simplest possible way. Built using React and Tailwind CSS, it leverages Google's Gemini 2.5 Flash model via the Gemini API to provide focused, topic-restricted explanations.",
+      image: "/DSA_Instructor_BOT.png",
+      tech: ["React", "Tailwind CSS", "Gemini API", "JavaScript"],
+      codeLink: "https://github.com/Kapilgupta25/DSA-Instructor-Bot",
+      liveLink: "https://dsa-instructor-bot.vercel.app/",
+    },
+    {
       title: "Weather Sphere",
       description: "A responsive, user-friendly weather application that delivers real-time weather updates. Built using React and Tailwind CSS, it integrates the WeatherAPI to fetch live weather data based on user input.",
       image: "/WeatherSphere.png",
