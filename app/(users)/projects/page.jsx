@@ -32,6 +32,14 @@ export default function Projects() {
       liveLink: "https://dsa-instructor-bot.vercel.app/",
     },
     {
+      title: "VideoTube",
+      description: "A scalable video hosting and channel platform supporting uploads, subscriptions, likes, comments, playlists, and personalized watch history. Built with a modular backend architecture and optimized for performance and horizontal scalability.",
+      image: "/Videotube.jpeg",
+      tech: ["Node.js", "Express", "MongoDB", "JWT", "Cloudinary", "Multer"],
+      codeLink: "https://github.com/Kapilgupta25/VideoTube",
+      liveLink: "https://drive.google.com/file/d/13H9m2e9U0uXcxZAmGAhybI8J2XLQGpMJ/view?usp=drive_link" // add live URL if deployed
+    },
+    {
       title: "Weather Sphere",
       description: "A responsive, user-friendly weather application that delivers real-time weather updates. Built using React and Tailwind CSS, it integrates the WeatherAPI to fetch live weather data based on user input.",
       image: "/WeatherSphere.png",
@@ -123,3 +131,5 @@ export default function Projects() {
     </div>
   );
 }
+
+

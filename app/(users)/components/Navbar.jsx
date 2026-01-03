@@ -36,22 +36,6 @@ export default function Navbar() {
               </Link>
             ))}
           </div>
-
-          {/* Mobile Menu Button */}
-          <div className="flex md:hidden items-center space-x-2">
-            <button
-              onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-              className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-            >
-              {theme === 'dark' ? <AiOutlineSun size={20} /> : <AiOutlineMoon size={20} />}
-            </button>
-            <button
-              onClick={() => setMenuOpen(!menuOpen)}
-              className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-            >
-              {menuOpen ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
-            </button>
-          </div>
         </div>
       </div>
 

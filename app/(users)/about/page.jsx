@@ -1,6 +1,5 @@
 'use client';
 
-import Image from "next/image";
 import { motion } from 'framer-motion';
 import { FaUserCircle } from "react-icons/fa";
 
@@ -21,7 +20,7 @@ export default function About() {
   };
 
   const skills = [
-    { title: "Programming Languages", items: ["JavaScript", "C", "C++", "Python", "Solidity"] },
+    { title: "Programming Languages", items: ["JavaScript", "C++", "Python", "Solidity"] },
     { title: "Web Technologies", items: ["React", "Next.js", "Node.js", "Express", "Django", "Tailwind CSS", "Postman", "HTML", "CSS"] },
     { title: "Databases", items: ["MongoDB", "SQL"] },
     { title: "Tools & Platforms", items: ["Git", "GitHub", "Vercel"] },
