@@ -37,7 +37,7 @@ export default function Projects() {
       image: "/Videotube.jpeg",
       tech: ["Node.js", "Express", "MongoDB", "JWT", "Cloudinary", "Multer"],
       codeLink: "https://github.com/Kapilgupta25/VideoTube",
-      liveLink: "https://drive.google.com/file/d/13H9m2e9U0uXcxZAmGAhybI8J2XLQGpMJ/view?usp=drive_link" // add live URL if deployed
+      liveLink: "https://drive.google.com/file/d/13H9m2e9U0uXcxZAmGAhybI8J2XLQGpMJ/view?usp=drive_link" 
     },
     {
       title: "Weather Sphere",
