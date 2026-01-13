@@ -91,7 +91,7 @@ const HomeSectionContent = () => {
             View My Work
           </Link>
           <a
-            href="https://drive.google.com/file/d/1lfdXLlqtJq0ea9mhsS64aIiJPVfdbUMM/view?usp=sharing" 
+            href="https://drive.google.com/file/d/1OoVLKDDEflY8LndeVLMGCA5crMiyj3F_/view?usp=drive_link" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="inline-block px-8 py-3 bg-gray-100 text-gray-900 font-semibold rounded-full shadow-xl 
