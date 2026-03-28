@@ -24,6 +24,14 @@ export default function Projects() {
 
   const projects = [
     {
+      title: "AI-Quizer",
+      description: "A scalable real-time multiplayer quiz platform that generates adaptive questions using Google Gemini API. Built with Node.js, Express, MongoDB, and Socket.IO. It supports concurrent users with synchronized timers, live scoring, and dynamic leaderboards, enhanced by JWT-based authentication and Redis-powered real-time communication.",
+      image: "/AI_QUIZER.png",
+      tech: ["Node.js", "Express.js", "MongoDB", "Socket.IO", "Redis", "Gemini API", "React", "Tailwind CSS"],
+      codeLink: "https://github.com/Kapilgupta25/AI_quizer",
+      liveLink: "https://ai-quizer-g14x.onrender.com/",
+    },
+    {
       title: "DSA Instructor Bot",
       description: "An AI-powered chatbot that helps users understand Data Structures & Algorithms (DSA) concepts in the simplest possible way. Built using React and Tailwind CSS, it leverages Google's Gemini 2.5 Flash model via the Gemini API to provide focused, topic-restricted explanations.",
       image: "/DSA_Instructor_BOT.png",
