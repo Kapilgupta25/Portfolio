@@ -23,6 +23,24 @@ export default function Projects() {
   };
 
   const projects = [
+        {
+      title: "Task Manager",
+      description: "A full-stack task management application built with React, Vite, Tailwind CSS, Node.js, Express.js, and MongoDB. It features JWT-based authentication, role-based access control (user/admin), secure task CRUD operations, protected dashboards, input validation, and scalable backend architecture with Postman API testing support. Deployed on Render with MongoDB Atlas integration.",
+      image: "/TASK_MANAGER.png",
+      tech: [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "Postman",
+        "Render"
+      ],
+      codeLink: "https://github.com/Kapilgupta25/Primetrade_Assignment",
+      liveLink: "https://your-frontend-render-link.onrender.com/"
+    },
     {
       title: "AI-Quizer",
       description: "A scalable real-time multiplayer quiz platform that generates adaptive questions using Google Gemini API. Built with Node.js, Express, MongoDB, and Socket.IO. It supports concurrent users with synchronized timers, live scoring, and dynamic leaderboards, enhanced by JWT-based authentication and Redis-powered real-time communication.",

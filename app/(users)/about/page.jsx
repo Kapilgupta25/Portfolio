@@ -20,11 +20,62 @@ export default function About() {
   };
 
   const skills = [
-    { title: "Programming Languages", items: ["JavaScript", "C++", "Python", "Solidity"] },
-    { title: "Web Technologies", items: ["React", "Next.js", "Node.js", "Express", "Django", "Tailwind CSS", "Postman", "HTML", "CSS"] },
-    { title: "Databases", items: ["MongoDB", "SQL"] },
-    { title: "Tools & Platforms", items: ["Git", "GitHub", "Vercel"] },
-  ];
+  {
+    title: "Programming Languages",
+    items: ["C++", "JavaScript", "Python", "SQL"]
+  },
+  {
+    title: "Frontend Development",
+    items: [
+      "React.js",
+      "Next.js",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+    ]
+  },
+  {
+    title: "Backend Development",
+    items: [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "JWT Authentication",
+      "Socket.IO"
+    ]
+  },
+  {
+    title: "Databases & Cloud",
+    items: [
+      "MongoDB",
+      "MySQL",
+      "Redis",
+    ]
+  },
+  {
+    title: "Tools & Platforms",
+    items: [
+      "Git",
+      "GitHub",
+      "Postman",
+      "Render",
+      "Vercel",
+      "VS Code"
+    ]
+  },
+  {
+    title: "AI & Core Concepts", items: [
+      "Google Gemini API",
+      "Generative AI",
+      "Machine Learning",
+      "DSA",
+      "OOPs",
+      "DBMS",
+      "Operating Systems",
+      "Computer Networks"
+    ]
+  }
+];
 
   return (
     <div className="relative min-h-screen flex flex-col items-center p-9 bg-black-900 transition-colors duration-300 font-inter text-white overflow-hidden">
@@ -50,13 +101,14 @@ export default function About() {
             Who I Am
           </h2>
           <p className="text-lg md:text-xl mb-4 text-gray-200 leading-relaxed">
-            I'm a B.Tech student in Electrical Engineering at the National Institute of Technology, Patna, with a strong passion for web development and problem-solving. My academic journey has fueled my interest in building scalable, robust, and user-friendly full-stack applications that transform ideas into impactful solutions.
+            I'm a B.Tech student in Electrical Engineering at the National Institute of Technology, Patna, with a strong passion for full-stack development, real-time systems, and AI-driven applications. I enjoy building scalable products that solve real-world problems through technology.
           </p>
           <p className="text-lg md:text-xl mb-4 text-gray-200 leading-relaxed">
-            My skills span across MERN stack development, C++, Python, and Data Structures & Algorithms, enabling me to design solutions that are both functional and efficient. I constantly strive to improve my technical expertise and stay adaptable in the ever-evolving tech landscape.
+            My experience includes developing projects like AI-Quizer, a real-time multiplayer quiz platform powered by Google Gemini API, a Task Manager application with JWT authentication and role-based access control, and working on AI models for neuromorphic computing. I specialize in MERN stack development, system design fundamentals, C++, Python, and Data Structures & Algorithms.
+
           </p>
           <p className="text-lg md:text-xl mb-4 text-gray-200 leading-relaxed">
-            Beyond academics and coding, I am deeply committed to personal growth and community impact. I enjoy playing chess, cricket, volleyball, and running, which help me stay grounded, disciplined, and energized.
+                Beyond coding, I serve as the Joint Secretary of IEEE Student Branch NIT Patna, where I contribute to technical events and community initiatives. Outside academics, I enjoy traveling, cricket, volleyball, and fitness—activities that keep me disciplined, competitive, energized and motivated.
           </p>
         </motion.div>
 

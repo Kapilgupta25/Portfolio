@@ -68,14 +68,14 @@ const HomeSectionContent = () => {
           variants={itemVariants} 
           className="text-2xl md:text-3xl text-gray-200 font-medium mb-8"
         >
-          Full Stack Web Developer
+          Full Stack Developer | GenAI | Problem Solver
         </motion.p>
         
         <motion.p 
           variants={itemVariants} 
           className="text-2lg md:text-xl text-white max-w-2xl mx-auto leading-relaxed mb-8"
         >
-          Passionate about building scalable and robust web applications. My background in Electrical Engineering from National Institute of Technology Patna, gives me a unique, problem-solving-driven approach to solving complex real-world problems.
+          Passionate about building scalable full-stack applications and AI-driven solutions. Currently pursuing Electrical Engineering at National Institute of Technology Patna, I combine strong problem-solving skills with expertise in web development, real-time systems, and generative AI to solve complex real-world problems.
         </motion.p>
         
         {/* Call to Action Buttons */}
