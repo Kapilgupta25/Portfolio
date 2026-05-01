@@ -39,7 +39,7 @@ export default function Projects() {
         "Render"
       ],
       codeLink: "https://github.com/Kapilgupta25/Primetrade_Assignment",
-      liveLink: "https://your-frontend-render-link.onrender.com/"
+      liveLink: "https://task-manger-frontend-ek4u.onrender.com/"
     },
     {
       title: "AI-Quizer",
