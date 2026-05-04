@@ -26,7 +26,7 @@ export default function Projects() {
         {
       title: "Task Manager",
       description: "A full-stack task management application built with React, Vite, Tailwind CSS, Node.js, Express.js, and MongoDB. It features JWT-based authentication, role-based access control (user/admin), secure task CRUD operations, protected dashboards, input validation, and scalable backend architecture with Postman API testing support. Deployed on Render with MongoDB Atlas integration.",
-      image: "/TASK_MANAGER.png",
+      image: "/TaskManager.png",
       tech: [
         "React",
         "Vite",
