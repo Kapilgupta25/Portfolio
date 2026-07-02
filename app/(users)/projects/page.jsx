@@ -24,8 +24,21 @@ export default function Projects() {
 
   const projects = [
         {
+        title: "K_Clock - Stopwatch",
+        description:
+          "A modern and responsive stopwatch application built using HTML, CSS, and JavaScript. It features millisecond-precision time tracking and requestAnimationFrame for smooth, accurate updates. The application includes start, stop, and reset controls, a clean glassmorphism-inspired UI, and a fully responsive design for seamless use across devices.",
+        image: "/K_Clock_Preview.png",
+        tech: [
+          "HTML5",
+          "CSS3",
+          "JavaScript"
+        ],
+        codeLink: "https://github.com/Kapilgupta25/K-Clock",
+        liveLink: "https://k-clock.vercel.app/"
+      },
+        {
       title: "Task Manager",
-      description: "A full-stack task management application built with React, Vite, Tailwind CSS, Node.js, Express.js, and MongoDB. It features JWT-based authentication, role-based access control (user/admin), secure task CRUD operations, protected dashboards, input validation, and scalable backend architecture with Postman API testing support. Deployed on Render with MongoDB Atlas integration.",
+      description: "A full-stack task management application. It features JWT-based authentication, role-based access control (user/admin), secure task CRUD operations, protected dashboards, input validation, and scalable backend architecture with Postman API testing support. Deployed on Render with MongoDB Atlas integration.",
       image: "/TaskManager.png",
       tech: [
         "React",
@@ -33,17 +46,14 @@ export default function Projects() {
         "Tailwind CSS",
         "Node.js",
         "Express.js",
-        "MongoDB",
-        "JWT",
-        "Postman",
-        "Render"
+        "MongoDB"
       ],
       codeLink: "https://github.com/Kapilgupta25/Primetrade_Assignment",
       liveLink: "https://task-manger-frontend-ek4u.onrender.com/"
     },
     {
       title: "AI-Quizer",
-      description: "A scalable real-time multiplayer quiz platform that generates adaptive questions using Google Gemini API. Built with Node.js, Express, MongoDB, and Socket.IO. It supports concurrent users with synchronized timers, live scoring, and dynamic leaderboards, enhanced by JWT-based authentication and Redis-powered real-time communication.",
+      description: "A scalable real-time multiplayer quiz platform that generates adaptive questions using Google Gemini API. It supports concurrent users with synchronized timers, live scoring, and dynamic leaderboards, enhanced by JWT-based authentication and Redis-powered real-time communication.",
       image: "/AI_QUIZER.png",
       tech: ["Node.js", "Express.js", "MongoDB", "Socket.IO", "Redis", "Gemini API", "React", "Tailwind CSS"],
       codeLink: "https://github.com/Kapilgupta25/AI_quizer",
@@ -51,7 +61,7 @@ export default function Projects() {
     },
     {
       title: "DSA Instructor Bot",
-      description: "An AI-powered chatbot that helps users understand Data Structures & Algorithms (DSA) concepts in the simplest possible way. Built using React and Tailwind CSS, it leverages Google's Gemini 2.5 Flash model via the Gemini API to provide focused, topic-restricted explanations.",
+      description: "An AI-powered chatbot that helps users understand Data Structures & Algorithms (DSA) concepts in the simplest possible way. It leverages Google's Gemini 2.5 Flash model via the Gemini API to provide focused, topic-restricted explanations.",
       image: "/DSA_Instructor_BOT.png",
       tech: ["React", "Tailwind CSS", "Gemini API", "JavaScript"],
       codeLink: "https://github.com/Kapilgupta25/DSA-Instructor-Bot",
@@ -75,7 +85,7 @@ export default function Projects() {
     },
     {
       title: "Tic Tac Toe Game",
-      description: "A classic two-player game built using pure HTML, CSS, and JavaScript. It includes features such as a reset button to clear the current game and a new game button to reinitialize the board for a fresh start.",
+      description: "A classic two-player game of Tic Tac Toe. It includes features such as a reset button to clear the current game and a new game button to reinitialize the board for a fresh start.",
       image: "/Tic-Tac-Toe.png",
       tech: ["HTML", "CSS", "JavaScript"],
       codeLink: "https://github.com/Kapilgupta25/Tic-Tac-Toe_Game",

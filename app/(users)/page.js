@@ -30,7 +30,7 @@ const HomeSectionContent = () => {
   };
 
   return (
-    <div className="relative min-h-screen flex flex-col justify-center items-center text-center p-15 bg-black-900 transition-colors duration-300 overflow-hidden font-inter">
+    <div className="relative min-h-screen flex flex-col justify-center items-center text-center p-5 bg-black-900 transition-colors duration-300 overflow-hidden font-inter">
       {/* Background with subtle gradient effect */}
       <div className="absolute inset-0 z-0 bg-gradient-to-br from-gray-1000 via-gray-800 to-purple-900 opacity-90"></div>
       
@@ -49,9 +49,9 @@ const HomeSectionContent = () => {
           <Image
             src="/me.jpg"
             alt="Kapil Gupta's Profile Picture"
-            width={180}
-            height={180}
-            className="rounded-full w-46 h-46 mx-auto shadow-lg border-4 border-purple-600 object-cover"
+            width={200}
+            height={200}
+            className="rounded-full w-55 h-55 mx-auto shadow-lg border-4 border-purple-600 object-cover"
           />
         </motion.div>
         
@@ -91,7 +91,7 @@ const HomeSectionContent = () => {
             View My Work
           </Link>
           <a
-            href="https://drive.google.com/file/d/1A_GSUoenj7ATWMSUG_Dj6UjYwdZh9DTA/view?usp=drive_link" 
+            href="https://drive.google.com/file/d/1TAwZ5gRtUoVw2K6eRXl5aZlGdL09SYr-/view?usp=drive_link" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="inline-block px-8 py-3 bg-gray-100 text-gray-900 font-semibold rounded-full shadow-xl 
